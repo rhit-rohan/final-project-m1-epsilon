@@ -133,6 +133,7 @@ void loop() {
 
     if(ps2x.Button(PSB_PAD_UP)) {      
       Serial.print("Up held this hard: ");
+      forward();
       Serial.println(ps2x.Analog(PSAB_PAD_UP), DEC);
     }
     if(ps2x.Button(PSB_PAD_RIGHT)){
