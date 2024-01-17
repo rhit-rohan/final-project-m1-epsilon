@@ -69,6 +69,7 @@ void setup(){
     if(error == 0){
       Serial.print("Found Controller, configured successful ");
       Serial.print("pressures = ");
+      Serial.print("Hello Word");
     if (pressures)
       Serial.println("true ");
     else
